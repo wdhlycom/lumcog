@@ -1,0 +1,46 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# 本地生成的导出稿（自包含网页，发稿用）与备份，不进仓库
+/导出网页/
+/.backup/
+
+# 本地临时文件
+.tmp-*
+
+# WorkBuddy 项目记忆与台账（本地工作数据，不进公开仓库）
+/.workbuddy/
+
+# 个人工作文档（方案、台账、草稿、核验清单、希望频道等），不进公开仓库
+/工作台账.md
+/发布工作流方案.md
+/希望所在 - Google Gemini.md
+/希望频道-传播与商业模式方案.md
+/说理型内容方法论-视角素材语调跨文化.md
+/核验清单-*.md
+/草稿/
+/希望拾遗/
